@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
 html {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif; }
+
+li, p {
+  font-family: "Raleway", sans-serif; }
+
+ul {
+  list-style: none; }
 
 /*# sourceMappingURL=styles.css.map */
