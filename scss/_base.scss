@@ -9,3 +9,40 @@ li,p {
 ul {
   list-style:none;
 }
+
+.text-center {
+  text-align:center;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  h1 {
+    padding-top: 300px;
+  }
+}
+.container {
+  width: $desktop;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+  }
+  li {
+    padding-top:1em;
+  }
+}
+.outer {
+  margin-bottom: 4em;
+  @include outer-container;
+  .half {
+    @include span-columns(6);
+    .list-header {
+      padding-left: 40px;
+    }
+  }
+}
+
+.schedule {
+  text-align: center;
+}

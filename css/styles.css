@@ -14,4 +14,44 @@ li, p {
 ul {
   list-style: none; }
 
+.text-center {
+  text-align: center; }
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  text-align: center; }
+  .hero h1 {
+    padding-top: 300px; }
+
+.container {
+  width: 1175px;
+  margin: 0 auto; }
+  .container h2 {
+    text-align: center; }
+  .container li {
+    padding-top: 1em; }
+
+.outer {
+  margin-bottom: 4em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .outer::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .outer .half {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .outer .half:last-child {
+      margin-right: 0; }
+    .outer .half .list-header {
+      padding-left: 40px; }
+
+.schedule {
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
