@@ -32,15 +32,35 @@ ul {
     padding-top:1em;
   }
 }
+
+img {
+  width: 100%;
+}
+
+hr {
+  width: 60%;
+  margin-bottom: 5em;
+  color: $darkGray;
+}
+
 .outer {
-  margin-bottom: 4em;
+  margin-bottom: 6em;
   @include outer-container;
-  .half {
-    @include span-columns(6);
-    .list-header {
-      padding-left: 40px;
-    }
+}
+
+.six-col {
+  @include span-columns(6);
+  .list-header {
+    padding-left: 40px;
   }
+}
+
+.eight-col {
+  @include span-columns(8);
+}
+
+.four-col {
+  @include span-columns(4);
 }
 
 .schedule {
