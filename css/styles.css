@@ -32,8 +32,16 @@ ul {
   .container li {
     padding-top: 1em; }
 
+img {
+  width: 100%; }
+
+hr {
+  width: 60%;
+  margin-bottom: 5em;
+  color: #808080; }
+
 .outer {
-  margin-bottom: 4em;
+  margin-bottom: 6em;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
@@ -41,15 +49,32 @@ ul {
     clear: both;
     content: "";
     display: block; }
-  .outer .half {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .outer .half:last-child {
-      margin-right: 0; }
-    .outer .half .list-header {
-      padding-left: 40px; }
+
+.six-col {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .six-col:last-child {
+    margin-right: 0; }
+  .six-col .list-header {
+    padding-left: 40px; }
+
+.eight-col {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .eight-col:last-child {
+    margin-right: 0; }
+
+.four-col {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .four-col:last-child {
+    margin-right: 0; }
 
 .schedule {
   text-align: center; }
