@@ -73,6 +73,9 @@ hr {
 
 .schedule {
   text-align: center;
+  .list-header{
+     padding-left: 40px;
+  }
 }
 
 .map {
@@ -84,6 +87,25 @@ hr {
 .info {
   width: 705px;
   margin: 0 auto;
+}
+
+.hotel-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  &:hover {
+    font-style: italic;
+  }
+}
+
+.tagline {
+  font-size: 1.1em;
+  line-height: 0.5;
+}
+
+.details {
+  font-size: 0.8em;
 }
 
 // Styles for the nav
