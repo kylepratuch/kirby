@@ -5,6 +5,12 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%; }
+
 h1, h2, h3 {
   font-family: "Playfair Display", serif; }
 
@@ -80,12 +86,39 @@ hr {
   text-align: center; }
 
 .map {
-  border: 2px solid black;
-  width: 705px;
+  border: 1px solid #808080;
+  width: 703px;
   margin: 0 auto; }
 
 .info {
   width: 705px;
   margin: 0 auto; }
+
+.nav-wrapper {
+  background-color: white;
+  box-shadow: 0 0 4px 0 #a6a6a6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3em; }
+  .nav-wrapper .navigation {
+    width: 1175px;
+    font-weight: 600;
+    margin: 0 auto; }
+    .nav-wrapper .navigation .logo {
+      float: left;
+      margin: 9px 0 0 40px;
+      color: black;
+      text-decoration: none; }
+    .nav-wrapper .navigation ul {
+      float: right; }
+      .nav-wrapper .navigation ul li {
+        display: inline;
+        margin-right: 1em; }
+        .nav-wrapper .navigation ul li:hover {
+          font-style: italic; }
+        .nav-wrapper .navigation ul li a {
+          color: black;
+          text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
