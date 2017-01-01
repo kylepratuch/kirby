@@ -99,12 +99,21 @@ hr {
     width: 1175px;
     font-weight: 600;
     margin: 0 auto;
+
     .logo {
       float: left;
       margin: 9px 0 0 40px;
       color: black;
       text-decoration: none;
     }
+
+    #countdown-holder {
+      float: left;
+      margin-left: 1em;
+      color: $darkGray;
+      font-size: 0.85em;
+    }
+
     ul {
       float: right;
       li {
