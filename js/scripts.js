@@ -1,6 +1,6 @@
 // Countdown Clock Script:
 var clock = document.getElementById("countdown-holder")
-  , targetDate = new Date(2017, 05, 17); // June 17, 2017;
+  , targetDate = new Date(2017, 05, 15); // June 15, 2017;
 
 clock.innerHTML = countdown(targetDate).toString();
 setInterval(function(){
