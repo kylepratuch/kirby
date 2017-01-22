@@ -22,22 +22,48 @@ ul {
   text-align:center;
 }
 
-.hero {
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  h1 {
-    padding-top: 300px;
-  }
-}
 .container {
   width: $desktop;
   margin: 0 auto;
+  background-image: url('../img/lightpaperfibers.png');
+
+  border: 1px solid $lightGray;
+
   h2 {
     text-align: center;
   }
   li {
     padding-top:1em;
+  }
+}
+
+.hero {
+  width: 96%;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url('../img/dog_mnt_flower.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  margin-bottom: 100px;
+
+  -webkit-box-shadow: 2x 2px 2px 0px rgba(133,133,133,1);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(133,133,133,1);
+  box-shadow: 2px 2px 2px 0px rgba(133,133,133,1);
+
+  h1 {
+    padding-top: 250px;
+  }
+
+  .hero-text {
+    padding-right: 9em;
+    text-align: right;
+    color: $offwhite;
+    text-shadow: 1px 1px 4px black;
+    h2 {
+      text-align: right;
+    }
   }
 }
 
@@ -53,6 +79,7 @@ hr {
 
 .outer {
   margin-bottom: 6em;
+  padding-right: 1em;
   @include outer-container;
 }
 
