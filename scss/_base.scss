@@ -4,7 +4,7 @@ html {
 
 body {
   min-height: 100%;
-  background-color: $lightBlue;
+  background-color: $grayBlue;
 }
 
 h1,h2,h3 {
@@ -12,7 +12,7 @@ h1,h2,h3 {
 }
 
 li,p {
-  font-family:$raleway;
+  font-family:$montserrat;
 }
 
 ul {
@@ -26,9 +26,9 @@ ul {
 .container {
   width: $desktop;
   margin: 0 auto;
-  background-image: url('../img/lightpaperfibers.png');
+  background-image: url($parchment);
 
-  border: 1px solid $lightGray;
+  border: 1px solid $darkGray;
 
   h2 {
     text-align: center;
@@ -52,7 +52,7 @@ ul {
 
   -webkit-box-shadow: 2x 2px 2px 0px rgba(133,133,133,1);
   -moz-box-shadow: 2px 2px 2px 0px rgba(133,133,133,1);
-  box-shadow: 2px 2px 2px 0px rgba(133,133,133,1);
+  box-shadow: 2px 2px 2px 0px $offBlack;
 
   h1 {
     padding-top: 250px;
@@ -77,6 +77,7 @@ hr {
   width: 60%;
   margin-bottom: 5em;
   color: $darkGray;
+  display: none;
 }
 
 .outer {
@@ -130,7 +131,7 @@ hr {
 
 .tagline {
   font-size: 1.1em;
-  line-height: 0.5;
+  line-height: 1.1;
 }
 
 .details {
@@ -139,8 +140,8 @@ hr {
 
 // Styles for the nav
 .nav-wrapper {
-  background-image: url('../img/lightpaperfibers.png');
-  box-shadow: 0 0 4px 0 $gray;
+  background-image: url($parchment);
+  box-shadow: 0 0 4px 0 $offBlack;
   position: fixed;
   top:0;
   width: 100%;
@@ -161,7 +162,7 @@ hr {
     #countdown-holder {
       float: left;
       margin-left: 1em;
-      color: $darkGray;
+      color: $offBlack;
       font-size: 0.85em;
     }
 

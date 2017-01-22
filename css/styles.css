@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 html {
   box-sizing: border-box; }
 
@@ -10,13 +11,13 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #6699CC; }
+  background-color: #a9bed7; }
 
 h1, h2, h3 {
   font-family: "Playfair Display", serif; }
 
 li, p {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 ul {
   list-style: none; }
@@ -27,8 +28,8 @@ ul {
 .container {
   width: 1175px;
   margin: 0 auto;
-  background-image: url("../img/lightpaperfibers.png");
-  border: 1px solid #E5E5E5; }
+  background-image: url("../img/parchment.jpg");
+  border: 1px solid #808080; }
   .container h2 {
     text-align: center; }
   .container li {
@@ -46,7 +47,7 @@ ul {
   background-position: bottom;
   -webkit-box-shadow: 2x 2px 2px 0px #858585;
   -moz-box-shadow: 2px 2px 2px 0px #858585;
-  box-shadow: 2px 2px 2px 0px #858585; }
+  box-shadow: 2px 2px 2px 0px #3b3b3b; }
   .hero h1 {
     padding-top: 250px; }
   .hero .hero-text {
@@ -63,7 +64,8 @@ img {
 hr {
   width: 60%;
   margin-bottom: 5em;
-  color: #808080; }
+  color: #808080;
+  display: none; }
 
 .outer {
   margin-bottom: 6em;
@@ -126,14 +128,14 @@ hr {
 
 .tagline {
   font-size: 1.1em;
-  line-height: 0.5; }
+  line-height: 1.1; }
 
 .details {
   font-size: 0.8em; }
 
 .nav-wrapper {
-  background-image: url("../img/lightpaperfibers.png");
-  box-shadow: 0 0 4px 0 #a6a6a6;
+  background-image: url("../img/parchment.jpg");
+  box-shadow: 0 0 4px 0 #3b3b3b;
   position: fixed;
   top: 0;
   width: 100%;
@@ -150,7 +152,7 @@ hr {
     .nav-wrapper .navigation #countdown-holder {
       float: left;
       margin-left: 1em;
-      color: #808080;
+      color: #3b3b3b;
       font-size: 0.85em; }
     .nav-wrapper .navigation ul {
       float: right; }
