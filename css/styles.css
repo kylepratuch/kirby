@@ -9,7 +9,8 @@ html {
   height: 100%; }
 
 body {
-  min-height: 100%; }
+  min-height: 100%;
+  background-color: #6699CC; }
 
 h1, h2, h3 {
   font-family: "Playfair Display", serif; }
@@ -37,11 +38,12 @@ ul {
   width: 96%;
   height: 600px;
   margin: 0 auto;
+  margin-top: 4.5em;
+  margin-bottom: 100px;
   background-image: url("../img/dog_mnt_flower.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  margin-bottom: 100px;
   -webkit-box-shadow: 2x 2px 2px 0px #858585;
   -moz-box-shadow: 2px 2px 2px 0px #858585;
   box-shadow: 2px 2px 2px 0px #858585; }
@@ -130,7 +132,7 @@ hr {
   font-size: 0.8em; }
 
 .nav-wrapper {
-  background-color: white;
+  background-image: url("../img/lightpaperfibers.png");
   box-shadow: 0 0 4px 0 #a6a6a6;
   position: fixed;
   top: 0;
