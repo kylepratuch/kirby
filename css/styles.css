@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i");
 html {
   box-sizing: border-box; }
 
@@ -11,13 +10,21 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #a9bed7; }
+  background-image: url("../img/parchment.jpg"); }
 
 h1, h2, h3 {
-  font-family: "Playfair Display", serif; }
+  font-family: "Amatic SC", cursive;
+  font-weight: 700; }
+
+h1 {
+  font-size: 56px; }
+
+h2 {
+  font-size: 36px; }
 
 li, p {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px; }
 
 ul {
   list-style: none; }
@@ -28,7 +35,7 @@ ul {
 .container {
   width: 1175px;
   margin: 0 auto;
-  background-image: url("../img/parchment.jpg");
+  background-image: url("../img/ricepaper_v3.png");
   border: 1px solid #808080; }
   .container h2 {
     text-align: center; }
@@ -36,10 +43,9 @@ ul {
     padding-top: 1em; }
 
 .hero {
-  width: 96%;
+  width: 100%;
   height: 600px;
   margin: 0 auto;
-  margin-top: 4.5em;
   margin-bottom: 100px;
   background-image: url("../img/dog_mnt_flower.jpg");
   background-size: cover;
@@ -47,7 +53,7 @@ ul {
   background-position: bottom;
   -webkit-box-shadow: 2x 2px 2px 0px #858585;
   -moz-box-shadow: 2px 2px 2px 0px #858585;
-  box-shadow: 2px 2px 2px 0px #3b3b3b; }
+  box-shadow: 0px 2px 2px 0px #3b3b3b; }
   .hero h1 {
     padding-top: 250px; }
   .hero .hero-text {
@@ -106,8 +112,8 @@ hr {
 
 .schedule {
   text-align: center; }
-  .schedule .list-header {
-    padding-left: 40px; }
+  .schedule ul {
+    padding-right: 40px; }
 
 .map {
   border: 1px solid #808080;
@@ -134,7 +140,7 @@ hr {
   font-size: 0.8em; }
 
 .nav-wrapper {
-  background-image: url("../img/parchment.jpg");
+  background-image: url("../img/ricepaper_v3.png");
   box-shadow: 0 0 4px 0 #3b3b3b;
   position: fixed;
   top: 0;
@@ -145,15 +151,16 @@ hr {
     font-weight: 600;
     margin: 0 auto; }
     .nav-wrapper .navigation .logo {
+      font-family: "Open Sans Condensed", sans-serif;
       float: left;
-      margin: 9px 0 0 40px;
+      margin: 0 0 0 40px;
       color: black;
       text-decoration: none; }
     .nav-wrapper .navigation #countdown-holder {
       float: left;
       margin-left: 1em;
       color: #3b3b3b;
-      font-size: 0.85em; }
+      font-size: 1em; }
     .nav-wrapper .navigation ul {
       float: right; }
       .nav-wrapper .navigation ul li {
@@ -164,5 +171,23 @@ hr {
         .nav-wrapper .navigation ul li a {
           color: black;
           text-decoration: none; }
+
+.registry li {
+  font-size: 22px; }
+  .registry li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600; }
+    .registry li a:hover {
+      font-style: italic; }
+.registry .honey {
+  text-align: right; }
+
+.kiss {
+  width: 55%; }
+  .kiss img {
+    width: 100%;
+    margin: 0 auto;
+    border: 8px solid #FFFAFA; }
 
 /*# sourceMappingURL=styles.css.map */
